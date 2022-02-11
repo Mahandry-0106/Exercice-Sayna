@@ -1,0 +1,139 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(img/background.png);
+    font-family: Arial, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #C55394;
+}
+header h2{
+    margin-left: 20px;
+    color: white;
+    font-family: 'Courgette', cursive;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+li:hover a{
+    background-color: #EB43A3;
+    padding: 27px 15px 29px 15px;
+}
+nav ul{
+    display: flex;
+}
+
+h1, h2, h3, h4{
+    font-style: italic;
+}
+.images{
+    display: flex;
+    justify-content:left;
+    
+}
+figure{
+    margin: 4px;
+}
+figure figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -30px;
+    background: #333;
+    opacity: 80%;
+}
+figure figcaption p{
+    color: #fff;
+    padding: 5px;
+    margin: 0px;
+}
+h1{
+    font-family: 'Courgette', cursive;
+    color: #C55394;
+}
+h3{
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+}
+section.content{
+    margin: 7% 15% 3.5%;
+}
+figure img{
+    height: 200px;
+    width: 224px;
+
+}
+figure:hover{
+    transform: scale(1.1);
+    border-radius: 20px;
+    padding: 5px;
+}
+section.content{
+    background-color: white;
+    filter: drop-shadow(2px 4px 8px #333);
+    border-radius: 10px;
+    
+}
+.title{
+    text-align: center;
+    position: relative;
+    top: 75px;
+
+}
+div.rainbow{
+    position: absolute;
+    left: 370px;
+    top: 80px;
+    width: 600px;
+    height: 100px;
+}
+.principe , .licornes , .trouver{
+    padding: 10px;
+}
+.box-parent{
+    display: inline-flex;
+}
+h4{
+    font-family: 'Courgette', cursive;
+    color: #EB43A3;
+}
+.box2{
+    margin-left: 18px;
+}
+
+input{
+    padding: 6px;
+}
+button{
+    background: #EB43A3;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    margin-top: 5px;
+    border: #EB43A3;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #E577B5;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+footer p{
+    margin-right: 15px;
+}
+
